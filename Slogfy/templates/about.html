@@ -54,7 +54,7 @@
                     <div class="container">
                         <div class="plamb-responsive-menu">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="">
                                     <div class="white-logo"><h3 style="color:white">SLOGFY</h3></div>
                                 <div class="black-logo"><h3>SLOGFY</h3></div>
                                     
@@ -67,7 +67,7 @@
                 <div class="plamb-nav">
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="">
                                 <div class="black-logo"><h1> SLOGFY </h1></div>
                                 <div class="white-logo"><h1 style="color:white"> SLOGFY </h1></div>
                             </a>
@@ -81,37 +81,37 @@
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="analytics.html" class="nav-link">Robitics<i class="fas fa-chevron-down"></i></a>
+                                            <li class="nav-item"><a href="analytics.html" class="nav-link">Robotics<i class="fas fa-chevron-down"></i></a>
 
                                                 <ul class="dropdown-menu">
-                                                    <a href="Embedded.html" class="nav-link"> Embedded IOT </a>
-                                                    <a href="PCB.html" class="nav-link"> PCB Design </a>
-                                                    <a href="3D.html" class="nav-link"> 3D Printing </a>
-                                                    <a href="STEM.html" class="nav-link"> STEM & ATL Lab </a>
-                                                    <a href="Smart.html" class="nav-link"> Smart Home </a>
-                                                    <a href="Robotic.html" class="nav-link"> Robotic Automation </a>
+                                                    <a href="{% url 'Embedded' %}" class="nav-link"> Embedded IOT </a>
+                                                    <a href="{% url 'PCB' %}" class="nav-link"> PCB Design </a>
+                                                    <a href="{% url '3D' %}" class="nav-link"> 3D Printing </a>
+                                                    <a href="{% url 'STEM' %}" class="nav-link"> STEM & ATL Lab </a>
+                                                    <a href="{% url 'Smart' %}" class="nav-link"> Smart Home </a>
+                                                    <a href="{% url 'Robotic' %}" class="nav-link"> Robotic Automation </a>
                                                 </ul>
                                             </li>
 
                                             <li class="nav-item"><a href="healthcare.html" class="nav-link">AI<i class="fas fa-chevron-down"></i></a>
                                                 <ul class="dropdown-menu">
-                                                    <a href="machinelearning.html" class="nav-link">Machine learning</a>
-                                                    <a href="Python.html" class="nav-link"> Pthyon AI</a>
-                                                    <a href="chatbot.html" class="nav-link">Chatbots</a>
-                                                    <a href="cluster.html" class="nav-link">Cluster</a>
-                                                    <a href="imagerecognition.html" class="nav-link">Image Recognition</a>
-                                                    <a href="NLP.html" class="nav-link"> Natural Lanuage Processing</a>
+                                                    <a href="{% url 'MachineLearning' %}" class="nav-link">Machine learning</a>
+                                                    <a href="{% url 'Python' %}" class="nav-link"> Python AI</a>
+                                                    <a href="{% url 'Chatbot' %}" class="nav-link">Chatbots</a>
+                                                    <a href="{% url 'Cluster' %}" class="nav-link">Cluster</a>
+                                                    <a href="{% url 'Imagerecognition' %}" class="nav-link">Image Recognition</a>
+                                                    <a href="{% url 'NLP' %}" class="nav-link"> Natural Lanuage Processing</a>
                                                 </ul>
                                             </li>
 
                                             <li class="nav-item"><a href="#" class="nav-link">Website<i class="fas fa-chevron-down"></i></a>
                                                 <ul class="dropdown-menu">
-                                                    <a href="Software_development.html" class="nav-link"> Software development </a>
-                                                    <a href="mobile application development.html" class="nav-link"> Mobile application development </a>
-                                                    <a href="salesforce system.html" class="nav-link"> CRM/Salesforce & automation</a>
-                                                    <a href="Intranet solution.html" class="nav-link"> Intranet solutions</a>
-                                                    <a href="E-commerce_development.html" class="nav-link"> eCommerce Development </a>
-                                                    <a href="SEO.html" class="nav-link"> Search engine optimisation </a>
+                                                    <a href="{% url 'Software-Development' %}" class="nav-link"> Software development </a>
+                                                    <a href="{% url 'Mobile-Application-Development' %}" class="nav-link"> Mobile application development </a>
+                                                    <a href="{% url 'Salesforce-System' %}" class="nav-link"> CRM/Salesforce & automation</a>
+                                                    <a href="{% url 'Intranet-Solution' %}" class="nav-link"> Intranet solutions</a>
+                                                    <a href="{% url 'E-Commerce-Development' %}" class="nav-link"> eCommerce Development </a>
+                                                    <a href="{% url 'SEO' %}" class="nav-link"> Search engine optimisation </a>
                                                 </ul>
                                             </li>
                                         
@@ -125,36 +125,36 @@
                                     </li>
                                 
                                     <li class="nav-item">
-                                        <a href="product.html" class="nav-link">
+                                        <a href="{% url 'Product' %}" class="nav-link">
                                             Our Products
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="training pages.html" class="nav-link">
+                                        <a href="{% url 'Training-Pages' %}" class="nav-link">
                                             Training courses
                                         </a>
                                     </li>
                                     
                                     <li class="nav-item">
-                                        <a href="index.html" class="nav-link">
+                                        <a href="{% url 'Index' %}" class="nav-link">
                                             Blog
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
-                                                <a href="Robotics(blogs).html" class="nav-link">
+                                                <a href="{% url 'Robotic' %}" class="nav-link">
                                                     Robotics
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                              <a href="AI(blog).html" class="nav-link">
+                                              <a href="{% url 'AI-Blog' %}" class="nav-link">
                                                     Artificial Intelligence 
                                                 </a>
                                             </li>
 
                                             <li class="nav-item">
-                                                <a href="web(blog).html" class="nav-link">
+                                                <a href="{% url 'Web-Blog' %}" class="nav-link">
                                                     Web Development
                                                 </a>
                                             </li>
@@ -162,7 +162,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="about.html" class="nav-link">
+                                        <a href="{% url 'About' %}" class="nav-link">
                                             About Us
                                         </a>
                                     </li>
@@ -170,7 +170,7 @@
 
                                 </ul>
                                 <div class="other-option">
-                                    <a class="default-btn" href="CONTACT.html">
+                                    <a class="default-btn" href="{% url 'Contact' %}">
                                         Contact Us
                                         <span></span>
                                     </a>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
             </div>
-            <!-- End Navbar Area -->
+        <!-- End Navbar Area -->
 
             
             <!-- Start Page Title Area -->
@@ -208,7 +208,7 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-6 col-md-6"">
                                     <div class="slogfy-image" data-aos="fade-left">
-                                        <img src="assets/images/web development/ecommerce_ptiwebtech.jpg" alt="image">
+                                        <img src="{% static 'assets/images/web development/ecommerce_ptiwebtech.jpg' %}" alt="image">
                                     </div>
                                 </div>
 
@@ -229,7 +229,7 @@
                                 <div class="row align-items-center">
                                     <div class="col-lg-6 col-md-6">
                                     <div class="slogfy-image" data-aos="fade-right">
-                                        <img src="assets/images/robotics/os1.jpg" alt="image">
+                                        <img src="{% static 'assets/images/robotics/os1.jpg' %}" alt="image">
                                     </div>
                                 </div>
 
@@ -255,7 +255,7 @@
                         <div class="row align-items-center pt-100 pb-70">
                             <div class="col-lg-6">
                                 <div class="productive-image" data-aos="fade-left">
-                                    <img src="assets/images/childrentech.jpg" alt="image">
+                                    <img src="{% static 'assets/images/childrentech.jpg' %}" alt="image">
                                 </div>
                             </div>
                                 <div class="col-lg-6">
@@ -277,7 +277,7 @@
         
                             <div class="col-lg-6">
                                 <div class="productive-image" data-aos="fade-left">
-                                    <img src="assets/images/blind.jpg" alt="image">
+                                    <img src="{% static 'assets/images/blind.jpg' %}" alt="image">
                                 </div>
                             </div>
                         </div>
@@ -340,7 +340,7 @@
                             <div class="row align-items-center">
                                 <div class="col-lg-6 col-md-6">
                                     <div class="subscribe-image">
-                                        <img src="assets/img/subscribe.png" alt="image">     
+                                        <img src="{% static 'assets/img/subscribe.png' %}" alt="image">     
                                     </div>
                                 </div>
 
@@ -475,7 +475,7 @@
                     </div>
 
                     <div class="partner-shape-img1">
-                        <img src="assets/img/shape/partnar-shape-2.png" alt="image">
+                        <img src="{% static 'assets/img/shape/partnar-shape-2.png' %}" alt="image">
                     </div>
                 </section>
             <!-- End Footer Section -->

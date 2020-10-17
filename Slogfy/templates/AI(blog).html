@@ -7,34 +7,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Bootstrap Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
         <!-- Animate Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/animate.min.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/animate.min.css' %}">
         <!-- FlatIcon CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
         <!-- Odometer Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
         <!-- MeanMenu CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
         <!-- Magnific Popup Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.min.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.min.css' %}">
         <!-- Nice Select Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/nice-select.min.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/nice-select.min.css' %}">
         <!-- Owl Carousel Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
         <!-- Font Awesome Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/fontawesome.min.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/fontawesome.min.css' %}">
         <!-- Style CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/style.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
         <!-- Responsive CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %">
+        <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
         <!--Animation-->
         
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css' %" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <title>SLOGFY</title>
 
-        <link rel="icon" type="image/png" href="{% static 'assets/img/123.png' %">
+        <link rel="icon" type="image/png" href="{% static 'assets/img/123.png' %}">
     </head>
 
     <body>
@@ -54,7 +54,7 @@
                     <div class="container">
                         <div class="plamb-responsive-menu">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="">
                                     <div class="white-logo"><h3 style="color:white">SLOGFY</h3></div>
                                 <div class="black-logo"><h3>SLOGFY</h3></div>
                                     
@@ -67,7 +67,7 @@
                 <div class="plamb-nav">
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
-                            <a class="navbar-brand" href="index.html">
+                            <a class="navbar-brand" href="">
                                 <div class="black-logo"><h1> SLOGFY </h1></div>
                                 <div class="white-logo"><h1 style="color:white"> SLOGFY </h1></div>
                             </a>
@@ -81,37 +81,37 @@
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="analytics.html" class="nav-link">Robitics<i class="fas fa-chevron-down"></i></a>
+                                            <li class="nav-item"><a href="analytics.html" class="nav-link">Robotics<i class="fas fa-chevron-down"></i></a>
 
                                                 <ul class="dropdown-menu">
-                                                    <a href="Embedded.html" class="nav-link"> Embedded IOT </a>
-                                                    <a href="PCB.html" class="nav-link"> PCB Design </a>
-                                                    <a href="3D.html" class="nav-link"> 3D Printing </a>
-                                                    <a href="STEM.html" class="nav-link"> STEM & ATL Lab </a>
-                                                    <a href="Smart.html" class="nav-link"> Smart Home </a>
-                                                    <a href="Robotic.html" class="nav-link"> Robotic Automation </a>
+                                                    <a href="{% url 'Embedded' %}" class="nav-link"> Embedded IOT </a>
+                                                    <a href="{% url 'PCB' %}" class="nav-link"> PCB Design </a>
+                                                    <a href="{% url '3D' %}" class="nav-link"> 3D Printing </a>
+                                                    <a href="{% url 'STEM' %}" class="nav-link"> STEM & ATL Lab </a>
+                                                    <a href="{% url 'Smart' %}" class="nav-link"> Smart Home </a>
+                                                    <a href="{% url 'Robotic' %}" class="nav-link"> Robotic Automation </a>
                                                 </ul>
                                             </li>
 
                                             <li class="nav-item"><a href="healthcare.html" class="nav-link">AI<i class="fas fa-chevron-down"></i></a>
                                                 <ul class="dropdown-menu">
-                                                    <a href="machinelearning.html" class="nav-link">Machine learning</a>
-                                                    <a href="Python.html" class="nav-link"> Pthyon AI</a>
-                                                    <a href="chatbot.html" class="nav-link">Chatbots</a>
-                                                    <a href="cluster.html" class="nav-link">Cluster</a>
-                                                    <a href="imagerecognition.html" class="nav-link">Image Recognition</a>
-                                                    <a href="NLP.html" class="nav-link"> Natural Lanuage Processing</a>
+                                                    <a href="{% url 'MachineLearning' %}" class="nav-link">Machine learning</a>
+                                                    <a href="{% url 'Python' %}" class="nav-link"> Python AI</a>
+                                                    <a href="{% url 'Chatbot' %}" class="nav-link">Chatbots</a>
+                                                    <a href="{% url 'Cluster' %}" class="nav-link">Cluster</a>
+                                                    <a href="{% url 'Imagerecognition' %}" class="nav-link">Image Recognition</a>
+                                                    <a href="{% url 'NLP' %}" class="nav-link"> Natural Lanuage Processing</a>
                                                 </ul>
                                             </li>
 
                                             <li class="nav-item"><a href="#" class="nav-link">Website<i class="fas fa-chevron-down"></i></a>
                                                 <ul class="dropdown-menu">
-                                                    <a href="Software_development.html" class="nav-link"> Software development </a>
-                                                    <a href="mobile application development.html" class="nav-link"> Mobile application development </a>
-                                                    <a href="salesforce system.html" class="nav-link"> CRM/Salesforce & automation</a>
-                                                    <a href="Intranet solution.html" class="nav-link"> Intranet solutions</a>
-                                                    <a href="E-commerce_development.html" class="nav-link"> eCommerce Development </a>
-                                                    <a href="SEO.html" class="nav-link"> Search engine optimisation </a>
+                                                    <a href="{% url 'Software-Development' %}" class="nav-link"> Software development </a>
+                                                    <a href="{% url 'Mobile-Application-Development' %}" class="nav-link"> Mobile application development </a>
+                                                    <a href="{% url 'Salesforce-System' %}" class="nav-link"> CRM/Salesforce & automation</a>
+                                                    <a href="{% url 'Intranet-Solution' %}" class="nav-link"> Intranet solutions</a>
+                                                    <a href="{% url 'E-Commerce-Development' %}" class="nav-link"> eCommerce Development </a>
+                                                    <a href="{% url 'SEO' %}" class="nav-link"> Search engine optimisation </a>
                                                 </ul>
                                             </li>
                                         
@@ -125,36 +125,36 @@
                                     </li>
                                 
                                     <li class="nav-item">
-                                        <a href="product.html" class="nav-link">
+                                        <a href="{% url 'Product' %}" class="nav-link">
                                             Our Products
                                         </a>
                                     </li>
 
                                     <li class="nav-item">
-                                        <a href="training pages.html" class="nav-link">
+                                        <a href="{% url 'Training-Pages' %}" class="nav-link">
                                             Training courses
                                         </a>
                                     </li>
                                     
                                     <li class="nav-item">
-                                        <a href="index.html" class="nav-link">
+                                        <a href="{% url 'Index' %}" class="nav-link">
                                             Blog
                                             <i class="fas fa-chevron-down"></i>
                                         </a>
                                         <ul class="dropdown-menu">
                                             <li class="nav-item">
-                                                <a href="Robotics(blogs).html" class="nav-link">
+                                                <a href="{% url 'Robotic' %}" class="nav-link">
                                                     Robotics
                                                 </a>
                                             </li>
                                             <li class="nav-item">
-                                              <a href="AI(blog).html" class="nav-link">
+                                              <a href="{% url 'AI-Blog' %}" class="nav-link">
                                                     Artificial Intelligence 
                                                 </a>
                                             </li>
 
                                             <li class="nav-item">
-                                                <a href="web(blog).html" class="nav-link">
+                                                <a href="{% url 'Web-Blog' %}" class="nav-link">
                                                     Web Development
                                                 </a>
                                             </li>
@@ -162,7 +162,7 @@
                                         </ul>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="about.html" class="nav-link">
+                                        <a href="{% url 'About' %}" class="nav-link">
                                             About Us
                                         </a>
                                     </li>
@@ -170,7 +170,7 @@
 
                                 </ul>
                                 <div class="other-option">
-                                    <a class="default-btn" href="CONTACT.html">
+                                    <a class="default-btn" href="{% url 'Contact' %}">
                                         Contact Us
                                         <span></span>
                                     </a>
@@ -181,7 +181,7 @@
                     </div>
                 </div>
             </div>
-            <!-- End Navbar Area -->
+        <!-- End Navbar Area -->
 
             
             <!-- Start Page Title Area -->
@@ -210,7 +210,7 @@
 					<div class="row">
 						<div class="col-lg-8 post-list blog-post-list">
 							<div class="single-post mt-5" data-aos="fade-up">
-								<img class="img-fluid" src="assets/images/robotics/3d-printer.jpg" alt="">
+								<img class="img-fluid" src="{% static 'assets/images/robotics/3d-printer.jpg' %}" alt="">
 								<a href="robotics.html">
 									<h1>
 										Robotics Future
@@ -240,7 +240,7 @@
 							</div>
 							
 							<div class="single-post" data-aos="fade-up">
-								<img class="img-fluid" src="assets/images/AI/smarthome.jpg" alt="">
+								<img class="img-fluid" src="{% static 'assets/images/AI/smarthome.jpg' %}" alt="">
 								<a href="3d-printing.html">
 									<h1>
 										3d Printing
@@ -280,7 +280,7 @@
 							</div>
 
 							<div class="single-widget protfolio-widget">
-								<img src="assets/images/AI/ai.jpeg" alt="">
+								<img src="{% static 'assets/images/AI/ai.jpeg' %}" alt="">
 								<a href="index.html"><h4>SLOGFY</h4></a>
 								<p>SLOGFY are indian based Private limited company established in 2019, 
                                     that specializes in robotics-related services and products, which include robotics,IoT, 3d printer , software IT services & web technologies development company.                                    
@@ -339,7 +339,7 @@
                                             <div class="row">
                                                 <div class="col-sm-12 col-lg-4">
                                                     <div class="card" style="width: 300px;">
-                                                        <img src="assets/images/AI/chatbot.png" class="card-img-top">
+                                                        <img src="{% static 'assets/images/AI/chatbot.png' %}" class="card-img-top">
                                                         <div class="card-body">
                                                             <h4 class="card-title">Why you should use skin masks ?</h4>
                                                             <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
@@ -352,7 +352,7 @@
                                                 </div>
                                                 <div class="col-sm-12 col-lg-4">
                                                     <div class="card" style="width: 300px;">
-                                                        <img src="assets/images/AI/chatbot.png" class="card-img-top">
+                                                        <img src="{% static 'assets/images/AI/chatbot.png' %}" class="card-img-top">
                                                         <div class="card-body">
                                                             <h4 class="card-title">Why you should use skin masks ?</h4>
                                                             <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
@@ -365,7 +365,7 @@
                                                 </div>
                                                 <div class="col-sm-12 col-lg-4">
                                                     <div class="card" style="width: 300px;">
-                                                        <img src="assets/images/AI/smarthome.jpg" class="card-img-top">
+                                                        <img src="{% static 'assets/images/AI/smarthome.jpg' %}" class="card-img-top">
                                                         <div class="card-body">
                                                             <h4 class="card-title">Why you should use skin masks ?</h4>
                                                             <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
@@ -384,7 +384,7 @@
                                             <div class="row">
                                                 <div class="col-sm-12 col-lg-4">
                                                     <div class="card" style="width: 300px;">
-                                                        <img src="assets/images/web development/ecommerce_ptiwebtech.jpg" class="card-img-top">
+                                                        <img src="{% static 'assets/images/web development/ecommerce_ptiwebtech.jpg' %}" class="card-img-top">
                                                         <div class="card-body">
                                                             <h4 class="card-title">Why you should use skin masks ?</h4>
                                                             <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
@@ -397,7 +397,7 @@
                                                 </div>
                                                 <div class="col-sm-12 col-lg-4">
                                                     <div class="card" style="width: 300px;">
-                                                        <img src="assets/images/web development/ecommerce_ptiwebtech.jpg" class="card-img-top">
+                                                        <img src="{% static 'assets/images/web development/ecommerce_ptiwebtech.jpg' %}" class="card-img-top">
                                                         <div class="card-body">
                                                             <h4 class="card-title">Why you should use skin masks ?</h4>
                                                             <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
@@ -410,7 +410,7 @@
                                                 </div>
                                                 <div class="col-sm-12 col-lg-4">
                                                     <div class="card" style="width: 300px;">
-                                                        <img src="assets/images/web development/softwaredevelopment.png" class="card-img-top">
+                                                        <img src="{% static 'assets/images/web development/softwaredevelopment.png' %}" class="card-img-top">
                                                         <div class="card-body">
                                                             <h4 class="card-title">Why you should use skin masks ?</h4>
                                                             <p class="card-text">Skin masks help us to make are skin fresh and also they protect our skin from the harm rays of sun</p>
@@ -560,7 +560,7 @@
                 </div>
 
                 <div class="partner-shape-img1">
-                    <img src="assets/img/shape/partnar-shape-2.png" alt="image">
+                    <img src="{% static 'assets/img/shape/partnar-shape-2.png' %}" alt="image">
                 </div>
             </section>
         <!-- End Footer Section -->
@@ -576,31 +576,31 @@
         <!-- End Go Top Section -->
 
         <!-- jQuery Min JS -->
-        <script src="{% static 'assets/js/jquery.min.js' %"></script>
+        <script src="{% static 'assets/js/jquery.min.js' %}"></script>
         <!-- Popper Min JS -->
-        <script src="{% static 'assets/js/popper.min.js' %"></script>
+        <script src="{% static 'assets/js/popper.min.js' %}"></script>
         <!-- Bootstrap Min JS -->
-        <script src="{% static 'assets/js/bootstrap.min.js' %"></script>
+        <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
         <!-- MeanMenu JS  -->
-        <script src="{% static 'assets/js/jquery.meanmenu.js' %"></script>
+        <script src="{% static 'assets/js/jquery.meanmenu.js' %}"></script>
         <!-- Appear Min JS -->
-        <script src="{% static 'assets/js/jquery.appear.min.js' %"></script>
+        <script src="{% static 'assets/js/jquery.appear.min.js' %}"></script>
         <!-- Odometer Min JS -->
-        <script src="{% static 'assets/js/odometer.min.js' %"></script>
+        <script src="{% static 'assets/js/odometer.min.js' %}"></script>
         <!-- Owl Carousel Min JS -->
-        <script src="{% static 'assets/js/owl.carousel.min.js' %"></script>
+        <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
         <!-- Magnific Popup Min JS -->
-        <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %"></script>
+        <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
         <!-- Nice Select Min JS -->
-        <script src="{% static 'assets/js/jquery.nice-select.min.js' %"></script>
+        <script src="{% static 'assets/js/jquery.nice-select.min.js' %}"></script>
         <!-- Ajaxchimp Min JS -->
-        <script src="{% static 'assets/js/jquery.ajaxchimp.min.js' %"></script>
+        <script src="{% static 'assets/js/jquery.ajaxchimp.min.js' %}"></script>
         <!-- WOW Min JS -->
-        <script src="{% static 'assets/js/wow.min.js' %"></script>
+        <script src="{% static 'assets/js/wow.min.js' %}"></script>
         <!-- Form Validator Min JS -->
-        <script src="{% static 'assets/js/form-validator.min.js' %"></script>
+        <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
         <!-- Contact Form Min JS -->
-        <script src="{% static 'assets/js/contact-form-script.js' %"></script>
+        <script src="{% static 'assets/js/contact-form-script.js' %}"></script>
         <!-- Main JS -->
         <script src="{% static 'assets/js/main.js' %}"></script>
         <!--Animation-->
