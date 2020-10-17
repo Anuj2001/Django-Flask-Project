@@ -1,692 +1,713 @@
-{% load static %}
-<!doctype html>
+<!doctype html>{% load static %}
 <html lang="zxx">
+
 <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <!-- Bootstrap Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
-        <!-- Animate Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/animate.min.css' %}">
-        <!-- FlatIcon CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
-        <!-- Odometer Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
-        <!-- MeanMenu CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
-        <!-- Magnific Popup Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.min.css' %}">
-        <!-- Nice Select Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/nice-select.min.css' %}">
-        <!-- Owl Carousel Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
-        <!-- Font Awesome Min CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/fontawesome.min.css' %}">
-        <!-- Style CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
-        <!-- Responsive CSS -->
-        <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
-    
+    <!-- Bootstrap Min CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <!-- Animate Min CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/animate.min.css' %}">
+    <!-- FlatIcon CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+    <!-- Odometer Min CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
+    <!-- MeanMenu CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+    <!-- Magnific Popup Min CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.min.css' %}">
+    <!-- Nice Select Min CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/nice-select.min.css' %}">
+    <!-- Owl Carousel Min CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+    <!-- Font Awesome Min CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.min.css' %}">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
 
-        <title>SLOGFY</title>
 
-        <link rel="icon" type="image/png" href="{% static 'assets/img/123.png' %}">
-    </head>
+    <title>SLOGFY</title>
 
-    <body>
+    <link rel="icon" type="image/png" href="{% static 'assets/img/123.png' %}">
+</head>
 
-        <!-- Preloader -->
-        <div class="preloader">
-            <div class="loader">
-                <div class="shadow"></div>
-                <div class="box"></div>
+<body>
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="shadow"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <!-- End Preloader -->
+
+    <!-- Start Navbar Area -->
+    <div class="navbar-area">
+        <div class="plamb-responsive-nav">
+            <div class="container">
+                <div class="plamb-responsive-menu">
+                    <div class="logo">
+                        <a href="{% url 'Index' %}">
+                            <div class="white-logo">
+                                <h3 style="color:white">SLOGFY</h3>
+                            </div>
+                            <div class="black-logo">
+                                <h3>SLOGFY</h3>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- End Preloader -->
 
-        <!-- Start Navbar Area -->
-        <div class="navbar-area">
-            <div class="plamb-responsive-nav">
+        <div class="plamb-nav">
+            <div class="container">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="{% url 'Index' %}">
+                        <div class="black-logo">
+                            <h1> SLOGFY </h1>
+                        </div>
+                        <div class="white-logo">
+                            <h1 style="color:white"> SLOGFY </h1>
+                        </div>
+                    </a>
+
+                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                                <a href="#services" class="nav-link">
+                                    Our Services
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a href="#" class="nav-link">Robitics</a></li>
+                                    <li class="nav-item"><a href="{% url 'Healthcare' %}" class="nav-link">AI</a>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Website<i
+                                                class="fas fa-chevron-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <a href="#" class="nav-link"> Software development </a>
+                                            <a href="#" class="nav-link"> Mobile application development </a>
+                                            <a href="#" class="nav-link"> CRM/Salesforce & automation </a>
+                                            <a href="#" class="nav-link"> Intranet solutions</a>
+                                            <a href="#" class="nav-link"> eCommerce Development </a>
+                                            <a href="#" class="nav-link"> Search engine optimisation </a>
+                                        </ul>
+
+                                    </li>
+                                </ul>
+
+
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    Our Products
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a href="#" class="nav-link">Data Analytics</a>
+                                    </li>
+                                    <li class="nav-item"><a href="{% url 'Healthcare' %}" class="nav-link">HealthCare <i
+                                                class="fas fa-chevron-down"></i></a>
+                                        <ul class="dropdown-menu">
+                                            <a href="#" class="nav-link"> HeartCare </a>
+                                            <a href="#" class="nav-link"> EyeCare </a>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item"><a href="#" class="nav-link">Computer Vision</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="https://tantrabyte.org/blogs" class="nav-link">
+                                    Blog
+                                    <i class="fas fa-chevron-down"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            Animations Using Matplotlib
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            Applications of AI in HealthCare
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            Application Of AI in Genetic Research
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            Business Process Automation
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="{% url 'About' %}" class="nav-link">
+                                    About Us
+                                </a>
+                            </li>
+
+
+                        </ul>
+                        <div class="other-option">
+                            <a class="default-btn" href="#footer">
+                                Contact Us
+                                <span></span>
+                            </a>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar Area -->
+
+
+    <!-- Start Page Title Area -->
+    <div class="page-title-area item-bg3">
+        <div class="d-table">
+            <div class="d-table-cell">
                 <div class="container">
-                    <div class="plamb-responsive-menu">
-                        <div class="logo">
-                            <a href="index.html">
-                                <div class="white-logo"><h3 style="color:white">SLOGFY</h3></div>
-                               <div class="black-logo"><h3>SLOGFY</h3></div>
-                                
+                    <div class="page-title-content">
+                        <h2>MOBILE APPLICATION DEVELOPMENT</h2>
+                        <ul>
+                            <li><a href="{% url 'Index' %}">Home</a></li>
+                            <li>Our Products</li>
+                            <li>Mobile Application</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Page Title Area -->
+
+    <section class="fun-facts-area ptb-100">
+        <div class="container">
+            <div class="col-lg-12 col-md-6 col-sm-6">
+                <div class="single-fun-fact">
+                    <h3>
+                        ABOUT MOBILE APPLICATION
+                    </h3>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Start Testimonial Section -->
+    <section class="testimonial-section ptb-100">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="productive-content">
+                        <span>Mobile Application</span>
+                        <h3>A mobile application </h3>
+                        <p>most commonly referred to as an app, is a type of application software designed to run on a mobile device, such as a smartphone or tablet computer. Mobile applications frequently serve to provide users with similar services to
+                            those accessed on PCs. Apps are generally small, individual software units with limited function. This use of app software was originally popularized by Apple Inc. and its App Store, which offers thousands of applications for
+                            the iPhone, iPad and iPod Touch.</p>
+
+                        <div class="productive-btn">
+                            <a href="#footer" class="productive-btn-one">
+                                Contact With Us
+                                <span></span>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="plamb-nav">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <div class="black-logo"><h1> SLOGFY </h1></div>
-                            <div class="white-logo"><h1 style="color:white"> SLOGFY </h1></div>
-                        </a>
-
-                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                               
-                                <li class="nav-item">
-                                    <a href="#services" class="nav-link">
-                                        Our Services
-<i class="fas fa-chevron-down"></i>
-                                    </a>
-  <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="analytics.html" class="nav-link">Robitics</a></li>
-                                        <li class="nav-item"><a href="healthcare.html" class="nav-link">AI</a>
-                                                                                   </li>
-                                        <li class="nav-item"><a href="#" class="nav-link">Website<i class="fas fa-chevron-down"></i></a>
- <ul class="dropdown-menu">
-                                                 <a href="#" class="nav-link"> Software development </a>
-                                                <a href="#" class="nav-link"> Mobile application development </a>
- <a href="#" class="nav-link"> CRM/Salesforce & automation </a>
- <a href="#" class="nav-link"> Intranet solutions</a>
- <a href="#" class="nav-link"> eCommerce Development </a>
- <a href="#" class="nav-link"> Search engine optimisation </a>
-                                            </ul>
-
-</li>
-                                    </ul>
-                  
-                                    
-                                </li>
-                               
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        Our Products
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="analytics.html" class="nav-link">Data Analytics</a></li>
-                                        <li class="nav-item"><a href="healthcare.html" class="nav-link">HealthCare <i class="fas fa-chevron-down"></i></a>
-                                            <ul class="dropdown-menu">
-                                                 <a href="#" class="nav-link"> HeartCare </a>
-                                                <a href="#" class="nav-link"> EyeCare </a>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item"><a href="#" class="nav-link">Computer Vision</a></li>
-                                    </ul>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a href="https://tantrabyte.org/blogs" class="nav-link">
-                                        Blog
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Animations Using Matplotlib
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Applications of AI in HealthCare
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Application Of AI in Genetic Research
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Business Process Automation
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="about.html" class="nav-link">
-                                        About Us
-                                    </a>
-                                </li>
-
-
-                            </ul>
-                            <div class="other-option">
-                                <a class="default-btn" href="#footer">
-                                    Contact Us
-                                    <span></span>
-                                </a>
-                            </div>
-                            
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <!-- End Navbar Area -->
-
-        
-        <!-- Start Page Title Area -->
-        <div class="page-title-area item-bg3">
-            <div class="d-table">
-                <div class="d-table-cell">
-                    <div class="container">
-                        <div class="page-title-content">
-                            <h2>MOBILE APPLICATION DEVELOPMENT</h2>
-                            <ul>
-                                <li><a href="index.html">Home</a></li>
-                                <li>Our Products</li>
-                                <li>Mobile Application</li>
-                            </ul>
-                        </div>
+                <div class="col-lg-6">
+                    <div class="productive-image">
+                        <img src="{% static 'img/mu.png' %}" alt="image">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Page Title Area -->
-        
-         <section class="fun-facts-area ptb-100">
-            <div class="container">
-                <div class="col-lg-12 col-md-6 col-sm-6">
-                        <div class="single-fun-fact">
-                            <h3>
-                                ABOUT MOBILE APPLICATION
-                            </h3>
-                            
-                        </div>
-                </div>
-            </div>
-        </section>
 
 
-
-        <!-- Start Testimonial Section -->
-        <section class="testimonial-section ptb-100">
-
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="productive-content">
-                            <span>Mobile Application</span>
-                            <h3>A mobile application </h3>
-                            <p>most commonly referred to as an app, is a type of application software designed to run on a mobile device, such as a smartphone or tablet computer. Mobile applications frequently serve to provide users with similar services to those accessed on PCs. Apps are generally small, individual software units with limited function. This use of app software was originally popularized by Apple Inc. and its App Store, which offers thousands of applications for the iPhone, iPad and iPod Touch.</p>
-
-                            <div class="productive-btn">
-                                <a href="#footer" class="productive-btn-one">
-                                    Contact With Us
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="productive-image">
-                            <img src="img/mu.png" alt="image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-
-            <div class="testimonial-shape">
-                <img src="assets/img/shape/testimonial-shape-1.png" alt="main-image">
-            </div>
-            <div class="testimonial-shape-img1">
-                <img src="assets/img/shape/testimonial-shape-2.png" alt="image">
-            </div>
-            <div class="testimonial-shape-img2">
-                <img src="assets/img/shape/testimonial-shape-3.png" alt="image">
-            </div>
-        </section>
-        <!-- End Testimonial Section -->
-
-        
-        <!-- Start Services Details Area -->
-        <section class="services-details-area ptb-100">
-            <div class="container">
-                <div class="services-details-overview">
-                    <div class="row align-items-center">
-
-                         <div class="col-lg-4 col-md-12">
-                            <div class="image-sliders owl-carousel owl-theme">
-                                <div class="services-details-image">
-                                    <img src="img/ms1.png" alt="image">
-                                </div>
-
-                                <div class="services-details-image">
-                                    <img src="img/ms2.png" alt="image">
-                                </div>
-
-                                <div class="services-details-image">
-                                    <img src="img/ms3.png" alt="image">
-                                </div>
-
-                                <div class="services-details-image">
-                                    <img src="img/ms4.png" alt="image">
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-8 col-md-12">
-                            <div class="services-details-desc">
-                                <h3>The History of the Development of Mobile Apps</h3>
-                                <p>If we stride back into the traditional days of mobile app design and development, then, we can probably find that the first used apps were mostly the monthly calendars, calculators and even games that were developed in the Java framework. But, interestingly, the first-ever known smartphone was launched by IBM in the year 1993.</p>
-
-                                <div class="features-text">
-                                    <h4>There are 3 types of apps:</h4>
-                                    <p>Native apps. iOS on Objective-C or Swift. Android on Java. Windows Phone on Net.<br>
-Hybrid apps for all platforms altogether with Xamarin, React Native, Ionic, Angular Mobile Sencha Touch etc.<br>
-Web apps as responsive versions of website to work on any mobile device.</p>
-                                </div>
-
-                                <div class="features-text">
-                                    <h4>Mobile application security</h4>
-                                    <p> app security is the measure and means of defending mobile device apps from digital fraud in the form of malware, hacking, and other criminal manipulation.
-
-</p>
-                                </div>
-                            </div>
-                        </div>
-
-                       
-                    </div>
-                </div>  
-            </div>
-        </section>
-        <!-- End Services Details Area -->
-
-
-
-         <!-- Start Testimonial Section -->
-        <section class="testimonial-section pb-100">
-
-                        <div class="container">
-                <div class="row align-items-center">
-
-
-
-                    <div class="col-lg-12">
-                        <div class="software-content">
-                            <span>Advantages</span>
-                            <h2>Benefits of mobile application</h2>
-                            <p>For a user, the important of mobile application development is of great importance. Portability and ease of use make the usability of mobile applications extremely simple for audience with gradually less learning curve. Mobile applications send information to their customers using notification.</p>
-
-                            <ul class="features-list">
-                                <li>
-                                    <span>Apps are a constant reminder of your business
-</span>
-                                </li>
-                                <li>
-                                    <span>Apps increase customer engagement</span>
-                                </li>
-                                <li>
-                                    <span>Customers don’t have to play the waiting game</span>
-                                </li>
-                                <li>
-                                    <span>Apps reduce costs
-</span>
-                                </li>
-                                
-                                
-                            </ul>
-                        </div>
-                    </div>
-
-                   
-                </div>
-            </div>
-
-            
-
-            <div class="testimonial-shape">
-                <img src="assets/img/shape/testimonial-shape-1.png" alt="main-image">
-            </div>
-            <div class="testimonial-shape-img1">
-                <img src="assets/img/shape/testimonial-shape-2.png" alt="image">
-            </div>
-            <div class="testimonial-shape-img2">
-                <img src="assets/img/shape/testimonial-shape-3.png" alt="image">
-            </div>
-        </section>
-        <!-- End Testimonial Section -->
-
-
- <!--------------------------------------------- EYECARE------------------------------------------------- -->
-        <section class="fun-facts-area ptb-100">
-                <div class="container">
-                    <div class="col-lg-12 col-md-6 col-sm-6">
-                            <div class="single-fun-fact">
-                                <h3>MOBILE APPLICATION DEVELOPMENT</h3>
-                            </div>
-                    </div>
-                </div>
-        </section>
-
-        <!-- Start Testimonial Section -->
-        <section class="testimonial-section ptb-100">
-
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="productive-content">
-                            <span>what is MAD?</span>
-                            <h3>Mobile app development </h3>
-                            <p>is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. These applications can be pre-installed on phones during manufacturing platforms, or delivered as web applications using server-side or client-side processing (e.g., JavaScript) to provide an "application-like" experience within a Web browser. Application software developers also must consider a long array of screen sizes, hardware specifications, and configurations because of intense competition in mobile software and changes within each of the platforms. Mobile app development has been steadily growing, in revenues and jobs created. A 2013 analyst report estimates there are 529,000 direct app economy jobs within the EU then 28 members (including the UK), 60 percent of which are mobile app developers.</p>
-
-                            <div class="productive-btn">
-                                
-                                <a href="#footer" class="productive-btn-one">
-                                    Contact With Us
-                                    <span></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="productive-image">
-                            <img src="img/md.jpg" alt="image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-
-            <div class="testimonial-shape">
-                <img src="assets/img/shape/testimonial-shape-1.png" alt="main-image">
-            </div>
-            <div class="testimonial-shape-img1">
-                <img src="assets/img/shape/testimonial-shape-2.png" alt="image">
-            </div>
-            <div class="testimonial-shape-img2">
-                <img src="assets/img/shape/testimonial-shape-3.png" alt="image">
-            </div>
-        </section>
-        <!-- End Testimonial Section -->
-
-        
-        <!-- Start Services Details Area -->
-        <section class="services-details-area ptb-100">
-            <div class="container">
-                <div class="services-details-overview">
-                    <div class="row align-items-center">
-
-                         <div class="col-lg-4 col-md-12">
-                            <div class="image-sliders owl-carousel owl-theme">
-                                <div class="services-details-image">
-                                    <img src="img/mt1.png" alt="image">
-                                </div>
-
-                                <div class="services-details-image">
-                                    <img src="img/mt2.jpg" alt="image">
-                                </div>
-
-                                <div class="services-details-image">
-                                    <img src="img/mt3.jpg" alt="image">
-                                </div>
-
-                                <div class="services-details-image">
-                                    <img src="img/mt4.jpeg" alt="image">
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="col-lg-8 col-md-12">
-                            <div class="services-details-desc">
-                                <h3>Framework</h3>
-                                <p>Cross development mobile app development. Ionic Framework is the free, open source mobile UI toolkit for developing high-quality cross-platform apps for native iOS, Android, and the web—all from a single codebase. It helps developers build and ship beautiful cross-platform hybrid apps.
-</p>
-
-                                <div class="features-text">
-                                    <h4>Services
-</h4>
-                                    <p>Appnovation designs, develops and delivers mobile apps across all the major platforms, including iOS (iPhone & iPad), Android, BlackBerry and Windows Mobile. Our mobile app development services include: Business, needs and requirements analysis.</p>
-                                </div>
-
-                                <div class="features-text">
-                                    <h4>Platform
-</h4>
-                                    <p>A mobile application development platform (MADP) is a type of software that allows a business to rapidly build, test and perhaps deploy mobile apps for smartphones or tablets.
-</p>
-                                </div>
-                            </div>
-                        </div>
-
-                       
-                    </div>
-                </div>  
-            </div>
-        </section>
-        <!-- End Services Details Area -->
-
-
-
-
-
-
-
-        <!-- Start Productive Section -->
-        <section class="productive-section ">
-
-            <div class="container pt-100">
-                <div class="section-title">
-                    <span>Products</span>
-                    <h3>Other Trending Products</h3>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-project">
-                            <div class="project-image">
-                                <img src="assets/img/project/1.png" alt="image">
-                            </div>
-        
-                            <div class="image-hover">
-                                <div class="text">
-                                    
-                                    <a href="#" class="read-more">Style Transfer</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="single-project">
-                            <div class="project-image">
-                                <img src="assets/img/project/2.png" alt="image">
-                            </div>
-        
-                            <div class="image-hover">
-                                <div class="text">
-                                    
-                                    <a href="#" class="read-more">Data Analytics</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
-                        <div class="single-project">
-                            <div class="project-imag">
-                                <img src="img/md.jpg" alt="image" height="270" width="270">
-                            </div>
-        
-                            <div class="image-hover">
-                                <div class="text">
-                                    
-                                    <a href="#" class="read-more">MOBILE APPLICATION DEVELOPMENT</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!-- End Product Details Area -->
-
-
-
-
-
-
- <!-- Start Footer Section -->
-        <section class="footer-section ptb-100">
-            <div class="container">
-                <div class="row">
-
-
-        <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-footer-widget">
-                            <div class="footer-heading">
-                                <h3>Contact</h3>
-                            </div>
-
-                            <div class="footer-info-contact">
-                                <i class="flaticon-call-answer"></i>
-                                <h3>Phone</h3>
-                                <span><a href="tel:+91 9205137675">+91 9205137675</a></span>
-                            </div>
-
-                           
-
-                            <div class="footer-info-contact">
-                                <i class="flaticon-maps-and-flags"></i>
-                                <h3>Address</h3>
-                                <span>F-76,<br> 
-                                      Near Saket Metro station,<br>Gate no. 2,<br> New Delhi,110030 </span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                     <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-footer-widget">
-                            <div class="footer-heading">
-                                <h3>Social Media</h3>
-                            </div>
-
-                             <div class="footer-info-contact">
-                                <i class="flaticon-envelope"></i>
-                                <h3>Email</h3>
-                                <span><a href="info@tantrabyte.org">info@tantrabyte.org</a></span>
-                            </div>
-
-                             <ul class="footer-social">
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-pinterest"></i>
-                                    </a>
-                                </li>
-
-                                <li>
-                                    <a href="#">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <div class="single-footer-widget">
-                            <div class="footer-heading">
-                                <h3>Important Links</h3>
-                            </div>
-
-                            <ul class="footer-quick-links">
-                                <li>
-                                    <a href="#">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="#">Project</a>
-                                </li>
-                                <li>
-                                    <a href="#">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#">Team</a>
-                                </li>
-                                <li>
-                                    <a href="#">Contact</a>
-                                </li>
-                            </ul>
-                        </div>    
-                    </div>
-
-
-
-                </div>
-            </div>
-
-            <div class="lines">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-
-            <div class="partner-shape-img1">
-                <img src="assets/img/shape/partnar-shape-2.png" alt="image">
-            </div>
-        </section>
-        <!-- End Footer Section -->
-
-
-        <!-- Start Go Top Section -->
-        <div class="go-top">
-            <i class="fas fa-chevron-up"></i>
-            <i class="fas fa-chevron-up"></i>
+        <div class="testimonial-shape">
+            <img src="{% static 'assets/img/shape/testimonial-shape-1.png' %}" alt="main-image">
         </div>
-        <!-- End Go Top Section -->
+        <div class="testimonial-shape-img1">
+            <img src="{% static 'assets/img/shape/testimonial-shape-2.png' %}" alt="image">
+        </div>
+        <div class="testimonial-shape-img2">
+            <img src="{% static 'assets/img/shape/testimonial-shape-3.png' %}" alt="image">
+        </div>
+    </section>
+    <!-- End Testimonial Section -->
 
-        <!-- jQuery Min JS -->
-        <script src="{% static 'assets/js/jquery.min.js' %}"></script>
-        <!-- Popper Min JS -->
-        <script src="{% static 'assets/js/popper.min.js' %}"></script>
-        <!-- Bootstrap Min JS -->
-        <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
-        <!-- MeanMenu JS  -->
-        <script src="{% static 'assets/js/jquery.meanmenu.js' %}"></script>
-        <!-- Appear Min JS -->
-        <script src="{% static 'assets/js/jquery.appear.min.js' %}"></script>
-        <!-- Odometer Min JS -->
-        <script src="{% static 'assets/js/odometer.min.js' %}"></script>
-        <!-- Owl Carousel Min JS -->
-        <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
-        <!-- Magnific Popup Min JS -->
-        <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
-        <!-- Nice Select Min JS -->
-        <script src="{% static 'assets/js/jquery.nice-select.min.js' %}"></script>
-        <!-- Ajaxchimp Min JS -->
-        <script src="{% static 'assets/js/jquery.ajaxchimp.min.js' %}"></script>
-        <!-- WOW Min JS -->
-        <script src="{% static 'assets/js/wow.min.js' %}"></script>
-        <!-- Form Validator Min JS -->
-        <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
-        <!-- Contact Form Min JS -->
-        <script src="{% static 'assets/js/contact-form-script.js' %}"></script>
-        <!-- Main JS -->
-        <script src="{% static 'assets/js/main.js' %}"></script>
-    </body>
+
+    <!-- Start Services Details Area -->
+    <section class="services-details-area ptb-100">
+        <div class="container">
+            <div class="services-details-overview">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="image-sliders owl-carousel owl-theme">
+                            <div class="services-details-image">
+                                <img src="{% static 'img/ms1.png' %}" alt="image">
+                            </div>
+
+                            <div class="services-details-image">
+                                <img src="{% static 'img/ms2.png' %}" alt="image">
+                            </div>
+
+                            <div class="services-details-image">
+                                <img src="{% static 'img/ms3.png' %}" alt="image">
+                            </div>
+
+                            <div class="services-details-image">
+                                <img src="{% static 'img/ms4.png' %}" alt="image">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-8 col-md-12">
+                        <div class="services-details-desc">
+                            <h3>The History of the Development of Mobile Apps</h3>
+                            <p>If we stride back into the traditional days of mobile app design and development, then, we can probably find that the first used apps were mostly the monthly calendars, calculators and even games that were developed in the
+                                Java framework. But, interestingly, the first-ever known smartphone was launched by IBM in the year 1993.</p>
+
+                            <div class="features-text">
+                                <h4>There are 3 types of apps:</h4>
+                                <p>Native apps. iOS on Objective-C or Swift. Android on Java. Windows Phone on Net.<br> Hybrid apps for all platforms altogether with Xamarin, React Native, Ionic, Angular Mobile Sencha Touch etc.<br> Web apps as responsive
+                                    versions of website to work on any mobile device.</p>
+                            </div>
+
+                            <div class="features-text">
+                                <h4>Mobile application security</h4>
+                                <p> app security is the measure and means of defending mobile device apps from digital fraud in the form of malware, hacking, and other criminal manipulation.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Details Area -->
+
+
+
+    <!-- Start Testimonial Section -->
+    <section class="testimonial-section pb-100">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+
+
+                <div class="col-lg-12">
+                    <div class="software-content">
+                        <span>Advantages</span>
+                        <h2>Benefits of mobile application</h2>
+                        <p>For a user, the important of mobile application development is of great importance. Portability and ease of use make the usability of mobile applications extremely simple for audience with gradually less learning curve. Mobile
+                            applications send information to their customers using notification.</p>
+
+                        <ul class="features-list">
+                            <li>
+                                <span>Apps are a constant reminder of your business
+                                </span>
+                            </li>
+                            <li>
+                                <span>Apps increase customer engagement</span>
+                            </li>
+                            <li>
+                                <span>Customers don’t have to play the waiting game</span>
+                            </li>
+                            <li>
+                                <span>Apps reduce costs
+                                </span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="testimonial-shape">
+            <img src="{% static 'assets/img/shape/testimonial-shape-1.png' %}" alt="main-image">
+        </div>
+        <div class="testimonial-shape-img1">
+            <img src="{% static 'assets/img/shape/testimonial-shape-2.png' %}" alt="image">
+        </div>
+        <div class="testimonial-shape-img2">
+            <img src="{% static 'assets/img/shape/testimonial-shape-3.png' %}" alt="image">
+        </div>
+    </section>
+    <!-- End Testimonial Section -->
+
+
+    <!--------------------------------------------- EYECARE------------------------------------------------- -->
+    <section class="fun-facts-area ptb-100">
+        <div class="container">
+            <div class="col-lg-12 col-md-6 col-sm-6">
+                <div class="single-fun-fact">
+                    <h3>MOBILE APPLICATION DEVELOPMENT</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Testimonial Section -->
+    <section class="testimonial-section ptb-100">
+
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="productive-content">
+                        <span>what is MAD?</span>
+                        <h3>Mobile app development </h3>
+                        <p>is the act or process by which a mobile app is developed for mobile devices, such as personal digital assistants, enterprise digital assistants or mobile phones. These applications can be pre-installed on phones during manufacturing
+                            platforms, or delivered as web applications using server-side or client-side processing (e.g., JavaScript) to provide an "application-like" experience within a Web browser. Application software developers also must consider
+                            a long array of screen sizes, hardware specifications, and configurations because of intense competition in mobile software and changes within each of the platforms. Mobile app development has been steadily growing, in revenues
+                            and jobs created. A 2013 analyst report estimates there are 529,000 direct app economy jobs within the EU then 28 members (including the UK), 60 percent of which are mobile app developers.
+                        </p>
+
+                        <div class="productive-btn">
+
+                            <a href="#footer" class="productive-btn-one">
+                                Contact With Us
+                                <span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="productive-image">
+                        <img src="{% static 'img/md.jpg' %}" alt="image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="testimonial-shape">
+            <img src="{% static 'assets/img/shape/testimonial-shape-1.png' %}" alt="main-image">
+        </div>
+        <div class="testimonial-shape-img1">
+            <img src="{% static 'assets/img/shape/testimonial-shape-2.png' %} " alt="image ">
+        </div>
+        <div class="testimonial-shape-img2 ">
+            <img src="{% static 'assets/img/shape/testimonial-shape-3.png' %}" alt="image">
+        </div>
+    </section>
+    <!-- End Testimonial Section -->
+
+
+    <!-- Start Services Details Area -->
+    <section class="services-details-area ptb-100">
+        <div class="container">
+            <div class="services-details-overview">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-4 col-md-12">
+                        <div class="image-sliders owl-carousel owl-theme">
+                            <div class="services-details-image">
+                                <img src="{% static 'img/mt1.png ' %}" alt="image">
+                            </div>
+
+                            <div class="services-details-image">
+                                <img src="{% static 'img/mt2.jpg ' %}" alt="image">
+                            </div>
+
+                            <div class="services-details-image">
+                                <img src="{% static 'img/mt3.jpg ' %}" alt="image">
+                            </div>
+
+                            <div class="services-details-image">
+                                <img src="{% static 'img/mt4.jpeg ' %}" alt="image">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-8 col-md-12">
+                        <div class="services-details-desc">
+                            <h3>Framework</h3>
+                            <p>Cross development mobile app development. Ionic Framework is the free, open source mobile UI toolkit for developing high-quality cross-platform apps for native iOS, Android, and the web—all from a single codebase. It helps
+                                developers build and ship beautiful cross-platform hybrid apps.
+                            </p>
+
+                            <div class="features-text">
+                                <h4>Services
+                                </h4>
+                                <p>Appnovation designs, develops and delivers mobile apps across all the major platforms, including iOS (iPhone & iPad), Android, BlackBerry and Windows Mobile. Our mobile app development services include: Business, needs
+                                    and requirements analysis.
+                                </p>
+                            </div>
+
+                            <div class="features-text">
+                                <h4>Platform
+                                </h4>
+                                <p>A mobile application development platform (MADP) is a type of software that allows a business to rapidly build, test and perhaps deploy mobile apps for smartphones or tablets.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services Details Area -->
+
+
+
+
+
+
+
+    <!-- Start Productive Section -->
+    <section class="productive-section ">
+
+        <div class="container pt-100">
+            <div class="section-title">
+                <span>Products</span>
+                <h3>Other Trending Products</h3>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-project">
+                        <div class="project-image">
+                            <img src="{% static 'assets/img/project/1.png ' %}" alt="image">
+                        </div>
+
+                        <div class="image-hover">
+                            <div class="text">
+
+                                <a href="#" class="read-more">Style Transfer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-project">
+                        <div class="project-image">
+                            <img src="{% static 'assets/img/project/2.png ' %}" alt="image">
+                        </div>
+
+                        <div class="image-hover">
+                            <div class="text">
+
+                                <a href="#" class="read-more">Data Analytics</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                    <div class="single-project">
+                        <div class="project-imag">
+                            <img src="{% static 'img/md.jpg ' %}" alt="image" height="270" width="270">
+                        </div>
+
+                        <div class="image-hover">
+                            <div class="text">
+
+                                <a href="#" class="read-more">MOBILE APPLICATION DEVELOPMENT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Product Details Area -->
+
+
+
+
+
+
+    <!-- Start Footer Section -->
+    <section class="footer-section ptb-100">
+        <div class="container">
+            <div class="row">
+
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="footer-heading">
+                            <h3>Contact</h3>
+                        </div>
+
+                        <div class="footer-info-contact">
+                            <i class="flaticon-call-answer"></i>
+                            <h3>Phone</h3>
+                            <span><a href="tel:+91 9205137675">+91 9205137675</a></span>
+                        </div>
+
+
+
+                        <div class="footer-info-contact">
+                            <i class="flaticon-maps-and-flags"></i>
+                            <h3>Address</h3>
+                            <span>F-76,<br>
+                                Near Saket Metro station,<br>Gate no. 2,<br> New Delhi,110030 </span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="footer-heading">
+                            <h3>Social Media</h3>
+                        </div>
+
+                        <div class="footer-info-contact">
+                            <i class="flaticon-envelope"></i>
+                            <h3>Email</h3>
+                            <span><a href="info@tantrabyte.org">info@tantrabyte.org</a></span>
+                        </div>
+
+                        <ul class="footer-social">
+                            <li>
+                                <a href="http://www.facebook.com">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.twitter.com">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.pinterest.com">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="http://www.linkedin.com">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <div class="footer-heading">
+                            <h3>Important Links</h3>
+                        </div>
+
+                        <ul class="footer-quick-links">
+                            <li>
+                                <a href="{% url 'About'%}">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Project</a>
+                            </li>
+                            <li>
+                                <a href="#">Services</a>
+                            </li>
+                            <li>
+                                <a href="#">Team</a>
+                            </li>
+                            <li>
+                                <a href="{% url 'Contact'%}">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <div class="partner-shape-img1">
+            <img src="{% static 'assets/img/shape/partnar-shape-2.png ' %}" alt="image">
+        </div>
+    </section>
+    <!-- End Footer Section -->
+
+
+    <!-- Start Go Top Section -->
+    <div class="go-top">
+        <i class="fas fa-chevron-up"></i>
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!-- End Go Top Section -->
+
+    <!-- jQuery Min JS -->
+    <script src="{% static 'assets/js/jquery.min.js ' %}"></script>
+    <!-- Popper Min JS -->
+    <script src="{% static 'assets/js/popper.min.js ' %}"></script>
+    <!-- Bootstrap Min JS -->
+    <script src="{% static 'assets/js/bootstrap.min.js ' %}"></script>
+    <!-- MeanMenu JS  -->
+    <script src="{% static 'assets/js/jquery.meanmenu.js ' %}"></script>
+    <!-- Appear Min JS -->
+    <script src="{% static 'assets/js/jquery.appear.min.js ' %}"></script>
+    <!-- Odometer Min JS -->
+    <script src="{% static 'assets/js/odometer.min.js ' %}"></script>
+    <!-- Owl Carousel Min JS -->
+    <script src="{% static 'assets/js/owl.carousel.min.js ' %}"></script>
+    <!-- Magnific Popup Min JS -->
+    <script src="{% static 'assets/js/jquery.magnific-popup.min.js ' %}"></script>
+    <!-- Nice Select Min JS -->
+    <script src="{% static 'assets/js/jquery.nice-select.min.js ' %}"></script>
+    <!-- Ajaxchimp Min JS -->
+    <script src="{% static 'assets/js/jquery.ajaxchimp.min.js ' %}"></script>
+    <!-- WOW Min JS -->
+    <script src="{% static 'assets/js/wow.min.js ' %}"></script>
+    <!-- Form Validator Min JS -->
+    <script src="{% static 'assets/js/form-validator.min.js ' %}"></script>
+    <!-- Contact Form Min JS -->
+    <script src="{% static 'assets/js/contact-form-script.js ' %}"></script>
+    <!-- Main JS -->
+    <script src="{% static 'assets/js/main.js ' %}"></script>
+</body>
 
 
 </html>
