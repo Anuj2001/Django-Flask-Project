@@ -1,3 +1,5 @@
+{% extends 'navbar.html' %}
+{% block content %}
 {% load static %}
 <!doctype html>
 <html lang="zxx">
@@ -46,127 +48,7 @@
         </div>
         <!-- End Preloader -->
 
-        <!-- Start Navbar Area -->
-        <div class="navbar-area">
-            <div class="plamb-responsive-nav">
-                <div class="container">
-                    <div class="plamb-responsive-menu">
-                        <div class="logo">
-                            <a href="index.html">
-                                <div class="white-logo"><h3 style="color:white">SLOGFY</h3></div>
-                               <div class="black-logo"><h3>SLOGFY</h3></div>
-                                
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="plamb-nav">
-                <div class="container">
-                    <nav class="navbar navbar-expand-md navbar-light">
-                        <a class="navbar-brand" href="index.html">
-                            <div class="black-logo"><h1> SLOGFY </h1></div>
-                            <div class="white-logo"><h1 style="color:white"> SLOGFY </h1></div>
-                        </a>
-
-                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                               
-                                <li class="nav-item">
-                                    <a href="#services" class="nav-link">
-                                        Our Services
-<i class="fas fa-chevron-down"></i>
-                                    </a>
-  <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="analytics.html" class="nav-link">Robitics</a></li>
-                                        <li class="nav-item"><a href="healthcare.html" class="nav-link">AI</a>
-                                                                                   </li>
-                                        <li class="nav-item"><a href="#" class="nav-link">Website<i class="fas fa-chevron-down"></i></a>
- <ul class="dropdown-menu">
-                                                 <a href="#" class="nav-link"> Software development </a>
-                                                <a href="#" class="nav-link"> Mobile application development </a>
- <a href="#" class="nav-link"> CRM/Salesforce & automation </a>
- <a href="#" class="nav-link"> Intranet solutions</a>
- <a href="#" class="nav-link"> eCommerce Development </a>
- <a href="#" class="nav-link"> Search engine optimisation </a>
-                                            </ul>
-
-</li>
-                                    </ul>
-                  
-                                    
-                                </li>
-                               
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        Our Products
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="analytics.html" class="nav-link">Data Analytics</a></li>
-                                        <li class="nav-item"><a href="healthcare.html" class="nav-link">HealthCare <i class="fas fa-chevron-down"></i></a>
-                                            <ul class="dropdown-menu">
-                                                 <a href="#" class="nav-link"> HeartCare </a>
-                                                <a href="#" class="nav-link"> EyeCare </a>
-                                            </ul>
-                                        </li>
-                                        <li class="nav-item"><a href="#" class="nav-link">Computer Vision</a></li>
-                                    </ul>
-                                </li>
-                                
-                                <li class="nav-item">
-                                    <a href="https://tantrabyte.org/blogs" class="nav-link">
-                                        Blog
-                                        <i class="fas fa-chevron-down"></i>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Animations Using Matplotlib
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Applications of AI in HealthCare
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Application Of AI in Genetic Research
-                                            </a>
-                                        </li>
-
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                Business Process Automation
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="about.html" class="nav-link">
-                                        About Us
-                                    </a>
-                                </li>
-
-
-                            </ul>
-                            <div class="other-option">
-                                <a class="default-btn" href="#footer">
-                                    Contact Us
-                                    <span></span>
-                                </a>
-                            </div>
-                            
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <!-- End Navbar Area -->
-
+        
         
         <!-- Start Page Title Area -->
         <div class="page-title-area item-bg3">
@@ -684,3 +566,4 @@ In Google and other search engines, the results page often features paid ads at 
 
 
 </html>
+{% endblock %}

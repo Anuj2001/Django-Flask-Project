@@ -1,3 +1,5 @@
+{% extends 'navbar.html' %}
+{% block content %}
 {% load static %}
 <!doctype html>
 <html lang="zxx">
@@ -30,11 +32,8 @@
         <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
         <!--Animation-->
         
-<<<<<<< HEAD
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css' %}" />
-=======
+
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
->>>>>>> Activate-Links
 
         <title>SLOGFY</title>
 
@@ -52,145 +51,7 @@
             </div>
             <!-- End Preloader -->
 
-            <!-- Start Navbar Area -->
-            <div class="navbar-area">
-                <div class="plamb-responsive-nav">
-                    <div class="container">
-                        <div class="plamb-responsive-menu">
-                            <div class="logo">
-                                <a href="">
-                                    <div class="white-logo"><h3 style="color:white">SLOGFY</h3></div>
-                                <div class="black-logo"><h3>SLOGFY</h3></div>
-                                    
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="plamb-nav">
-                    <div class="container">
-                        <nav class="navbar navbar-expand-md navbar-light">
-                            <a class="navbar-brand" href="">
-                                <div class="black-logo"><h1> SLOGFY </h1></div>
-                                <div class="white-logo"><h1 style="color:white"> SLOGFY </h1></div>
-                            </a>
-
-                            <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                                <ul class="navbar-nav">
-                                
-                                    <li class="nav-item">
-                                        <a href="#services" class="nav-link">
-                                            Our Services
-                                            <i class="fas fa-chevron-down"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item"><a href="analytics.html" class="nav-link">Robotics<i class="fas fa-chevron-down"></i></a>
-
-                                                <ul class="dropdown-menu">
-                                                    <a href="{% url 'Embedded' %}" class="nav-link"> Embedded IOT </a>
-                                                    <a href="{% url 'PCB' %}" class="nav-link"> PCB Design </a>
-                                                    <a href="{% url '3D' %}" class="nav-link"> 3D Printing </a>
-                                                    <a href="{% url 'STEM' %}" class="nav-link"> STEM & ATL Lab </a>
-                                                    <a href="{% url 'Smart' %}" class="nav-link"> Smart Home </a>
-                                                    <a href="{% url 'Robotic' %}" class="nav-link"> Robotic Automation </a>
-                                                </ul>
-                                            </li>
-
-                                            <li class="nav-item"><a href="healthcare.html" class="nav-link">AI<i class="fas fa-chevron-down"></i></a>
-                                                <ul class="dropdown-menu">
-                                                    <a href="{% url 'MachineLearning' %}" class="nav-link">Machine learning</a>
-                                                    <a href="{% url 'Python' %}" class="nav-link"> Python AI</a>
-                                                    <a href="{% url 'Chatbot' %}" class="nav-link">Chatbots</a>
-                                                    <a href="{% url 'Cluster' %}" class="nav-link">Cluster</a>
-                                                    <a href="{% url 'Imagerecognition' %}" class="nav-link">Image Recognition</a>
-                                                    <a href="{% url 'NLP' %}" class="nav-link"> Natural Lanuage Processing</a>
-                                                </ul>
-                                            </li>
-
-                                            <li class="nav-item"><a href="#" class="nav-link">Website<i class="fas fa-chevron-down"></i></a>
-                                                <ul class="dropdown-menu">
-                                                    <a href="{% url 'Software-Development' %}" class="nav-link"> Software development </a>
-                                                    <a href="{% url 'Mobile-Application-Development' %}" class="nav-link"> Mobile application development </a>
-                                                    <a href="{% url 'Salesforce-System' %}" class="nav-link"> CRM/Salesforce & automation</a>
-                                                    <a href="{% url 'Intranet-Solution' %}" class="nav-link"> Intranet solutions</a>
-                                                    <a href="{% url 'E-Commerce-Development' %}" class="nav-link"> eCommerce Development </a>
-                                                    <a href="{% url 'SEO' %}" class="nav-link"> Search engine optimisation </a>
-                                                </ul>
-                                            </li>
-                                        
-                                    </li>
-                                </ul>
-                                    
-                                            
-                                            
-                        
-                                        
-                                    </li>
-                                
-                                    <li class="nav-item">
-                                        <a href="{% url 'Product' %}" class="nav-link">
-                                            Our Products
-                                        </a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="{% url 'Training-Pages' %}" class="nav-link">
-                                            Training courses
-                                        </a>
-                                    </li>
-                                    
-                                    <li class="nav-item">
-                                        <a href="{% url 'Index' %}" class="nav-link">
-                                            Blog
-                                            <i class="fas fa-chevron-down"></i>
-                                        </a>
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="{% url 'Robotic' %}" class="nav-link">
-                                                    Robotics
-                                                </a>
-                                            </li>
-                                            <li class="nav-item">
-                                              <a href="{% url 'AI-Blog' %}" class="nav-link">
-                                                    Artificial Intelligence 
-                                                </a>
-                                            </li>
-
-                                            <li class="nav-item">
-                                                <a href="{% url 'Web-Blog' %}" class="nav-link">
-                                                    Web Development
-                                                </a>
-                                            </li>
-                                            
-                                        </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="{% url 'About' %}" class="nav-link">
-                                            About Us
-                                        </a>
-                                    </li>
-
-
-                                </ul>
-                                <div class="other-option">
-                                    <a class="default-btn" href="{% url 'Contact' %}">
-                                        Contact Us
-                                        <span></span>
-                                    </a>
-                                </div>
-                                
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        <!-- End Navbar Area -->
-<<<<<<< HEAD
-
-=======
->>>>>>> Activate-Links
-
+            
             
             <!-- Start Page Title Area -->
             <div class="page-title-area item-bg3">
@@ -620,3 +481,4 @@
 
 
 </html>
+{% endblock %}
