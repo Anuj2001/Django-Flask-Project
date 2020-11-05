@@ -5,7 +5,8 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
         <!-- Bootstrap Min CSS -->
         <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -38,7 +39,14 @@
         <!--Animation-->
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    
+        <style>
+            a:hover,a.nav-link:active{
+                color: #535b5e;
+            }
+            a.default-btn:hover{
+                background-color: #535b5e;
+            }
+        </style>
         <title>SLOGFY</title>
 
         <link rel="icon" type="image/png" href="{% static 'assets/img/123.png' %}">
@@ -46,7 +54,7 @@
 
     <body>
 <!-- Start Navbar Area -->
-<div class="navbar-area">
+<div class="navbar-area w3-theme-l1">
     <div class="plamb-responsive-nav">
         <div class="container">
             <div class="plamb-responsive-menu">
@@ -73,9 +81,8 @@
                     <ul class="navbar-nav">
                     
                         <li class="nav-item">
-                            <a href="#services" class="nav-link">
+                            <a href="#services" class="nav-link" style="">
                                 Our Services
-                                <i class="fas fa-chevron-down"></i>
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="nav-item"><a href="analytics.html" class="nav-link">Robotics<i class="fas fa-chevron-down"></i></a>
@@ -167,7 +174,7 @@
 
                     </ul>
                     <div class="other-option">
-                        <a class="default-btn" href="{% url 'Contact' %}">
+                        <a class="default-btn w3-theme-l5" href="{% url 'Contact' %}">
                             Contact Us
                             <span></span>
                         </a>
