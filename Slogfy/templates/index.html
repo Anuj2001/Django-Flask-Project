@@ -5,65 +5,69 @@
 <html lang="zxx">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <!-- Bootstrap Min CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- Animate Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/animate.min.css'%}">
+        <!-- FlatIcon CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
+        <!-- Odometer Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
+        <!-- MeanMenu CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+        <!-- Magnific Popup Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.min.css' %}">
+        <!-- Nice Select Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/nice-select.min.css' %}">
+        <!-- Owl Carousel Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+        <link rel="stylesheet" href="{% static 'assets/css/owl.theme.css' %}">
+        <link rel="stylesheet" href="{% static 'assets/css/owl.transitions.css' %}">
+        <!-- Font Awesome Min CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/fontawesome.min.css' %}">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+        <!-- Slider -->
+        <link rel="stylesheet" href="{% static 'assets/css/slick.css' %}">
+        <link rel="stylesheet" href="{% static 'assets/css/slick-theme.css' %}">
+        <!--Animation-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <!-- Animate Min CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/animate.min.css'%}">
-    <!-- FlatIcon CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/flaticon.css' %}">
-    <!-- Odometer Min CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/odometer.min.css' %}">
-    <!-- MeanMenu CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
-    <!-- Magnific Popup Min CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.min.css' %}">
-    <!-- Nice Select Min CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/nice-select.min.css' %}">
-    <!-- Owl Carousel Min CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
-    <link rel="stylesheet" href="{% static 'assets/css/owl.theme.css' %}">
-    <link rel="stylesheet" href="{% static 'assets/css/owl.transitions.css' %}">
-    <!-- Font Awesome Min CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.min.css' %}">
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
-    <!-- Slider -->
-    <link rel="stylesheet" href="{% static 'assets/css/slick.css' %}">
-    <link rel="stylesheet" href="{% static 'assets/css/slick-theme.css' %}">
-    <!--Animation-->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <style>
+            a.nav-link:hover,a.nav-link:active{
+                color: #535b5e;
+            }
+        </style>
+        <title>SLOGFY</title>
 
+        <link rel="icon" type="image/png" href="{% static 'assets/img/123.png' %}">
+    </head>
 
-    <title>SLOGFY</title>
+    <body class="w3-theme-l5">
 
-    <link rel="icon" type="image/png" href="{% static 'assets/img/123.png' %}">
-</head>
-
-<body>
-
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="loader">
-            <div class="shadow"></div>
-            <div class="box"></div>
+        <!-- Preloader -->
+        <div class="preloader">
+            <div class="loader">
+                <div class="shadow"></div>
+                <div class="box"></div>
+            </div>
         </div>
         <!-- End Preloader -->
 
         
         <!-- Start Main Banner Two Area -->
-        <div id="videoslider" class="carousel slide videoslider" data-ride="carousel">
+        <div id="videoslider" class="carousel slide videoslider" data-ride="carousel" style="margin-top: 80px; margin-left: 130px;">
             <ol class="carousel-indicators">
               <li data-target="#videoslider" data-slide-to="0" class="active"></li>
-              <li data-target="#videoslider" data-slide-to="1"></li>
-              <li data-target="#videoslider" data-slide-to="2"></li>
+              <li data-target="#videoslider" data-slide-to="1" class="active"></li>
+              <li data-target="#videoslider" data-slide-to="2" class="active"></li>
             </ol>
             <div class="carousel-inner video">
               <div class="carousel-item active">
@@ -72,11 +76,6 @@
                 </video>
               </div>
               <div class="carousel-item">
-
-                <img src="https://www.romaniajournal.ro/wp-content/uploads/2016/07/Drone.jpg" style="width: 100;" />
-
-            </div>
-            <div class="carousel-item ">
 
                 <img src="https://icdn2.digitaltrends.com/image/digitaltrends/parrot-anafi-drone-review-feat.jpg" style="width: 100;" />
 
@@ -138,9 +137,6 @@
                                 </a>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
 
@@ -186,7 +182,40 @@
                                     <h3>Robotics At SLOGFY</h3>
                                     <p>Managed analytics offers a good choice to many of the challenges companies face today. By deploying the analytics technology and inspanning an analytics mindset you can get the capabilities and understanding offered
                                         by leading in-house solutions faster and in a well organised way. By using our services you can get benefits such as technology expertise, industry knowledge, leadership and better skill set to labor cost ratios.</p>
-
+    
+    
+                        <div class="col-lg-6">
+                            <div class="productive-content">
+                                
+                                <h3>What do we do? </h3>
+                                <p>SLOGFY is an indian based Private limited company established in 2019, 
+                                    that specializes in robotics-related services and products, which include robotics,IoT, 3d printer , software IT services & web technologies development company. ..
+                                    </p>
+    
+                                <div class="about-content">
+                                
+                               
+                                <ul class="about-list">
+                                    <li >
+                                        <i class="fa fa-arrow-right"></i>
+                                        Web Developement
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-arrow-right"></i>
+                                        Robotics
+                                    </li>
+                                    <li>
+                                        <i class="fa fa-arrow-right"></i>
+                                        Artificial-Intelligence
+                                    </li>
+                                    
+                                </ul>
+    
+                                <div class="about-btn">
+                                    <a class="default-btn" href="#">
+                                        Read More 
+                                        <span></span>
+                                    </a>
                                 </div>
                             </div>
 
@@ -471,10 +500,6 @@
         </div>
     </div>
     <!-- End Latest blogs -->
-
-
-
-
 
 
 
