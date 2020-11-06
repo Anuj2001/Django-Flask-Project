@@ -51,7 +51,6 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
-WHITENOISE_USE_FINDERS = True
 ROOT_URLCONF = 'Slogfy.urls'
 
 TEMPLATES = [
