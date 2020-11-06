@@ -1,0 +1,1 @@
+web: gunicorn slogfy.wsgi --log-file -

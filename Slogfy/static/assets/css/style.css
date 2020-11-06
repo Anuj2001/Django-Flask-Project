@@ -1,16 +1,13 @@
+  
 /*
 /*
 @File: plamb Template Styles
-
 * This file contains the styling for the actual template, this
 is the file you need to edit to change the look of the
 template.
-
 This files table contents are outlined below>>>>>
-
 *******************************************
 *******************************************
-
 ** - Default CSS
 ** - Preloader Area CSS
 ** - Navbar Area CSS
@@ -112,6 +109,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #00b0ee;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -138,8 +136,8 @@ p:last-child {
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  color: #535b5e;
-  background-color: #535b5e;
+  color: #ffffff;
+  background-color: #00b0ee;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   border-radius: 10px;
@@ -157,7 +155,7 @@ p:last-child {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #535b5e;
+  background-color: #3e57d0;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -167,7 +165,7 @@ p:last-child {
 }
 
 .default-btn:hover, .default-btn:focus {
-  color: #535b5e;
+  color: #ffffff;
 }
 
 .default-btn:hover span, .default-btn:focus span {
@@ -182,7 +180,7 @@ p:last-child {
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  color: #535b5e;
+  color: #00b0ee;
   background-color: #ffffff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -203,7 +201,7 @@ p:last-child {
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #535b5e;
+  background-color: #3e57d0;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -213,7 +211,7 @@ p:last-child {
 }
 
 .default-btn-one:hover, .default-btn-one:focus {
-  color: #535b5e;
+  color: #ffffff;
 }
 
 .default-btn-one:hover span, .default-btn-one:focus span {
@@ -230,7 +228,7 @@ p:last-child {
 .section-title span {
   font-size: 16px;
   font-weight: 400;
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .section-title h3 {
@@ -300,7 +298,7 @@ Preloader Area CSS
   width: 60%;
   height: 100%;
   z-index: -1;
-  background: #535b5e;
+  background: #00b0ee;
   -webkit-transition: .9s;
   transition: .9s;
 }
@@ -455,7 +453,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item a:hover, .plamb-nav .navbar .navbar-nav .nav-item a:focus, .plamb-nav .navbar .navbar-nav .nav-item a.active {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item a i {
@@ -474,7 +472,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item:hover a, .plamb-nav .navbar .navbar-nav .nav-item:focus a, .plamb-nav .navbar .navbar-nav .nav-item.active a {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -523,13 +521,13 @@ Navbar Area CSS
   -webkit-transition: 0.6s;
   transition: 0.6s;
   height: 1px;
-  background-color: #535b5e;
+  background-color: #00b0ee;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-  color: #535b5e;
+  color: #00b0ee;
   padding-left: 26px;
 }
 
@@ -549,7 +547,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -565,7 +563,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -576,12 +574,12 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #535b5e;
+  color: #696997;
   text-transform: capitalize;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -597,7 +595,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -613,7 +611,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -629,11 +627,11 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -645,7 +643,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -657,7 +655,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -669,7 +667,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-  color: #535b5e  ;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -681,7 +679,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -693,7 +691,7 @@ Navbar Area CSS
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -721,12 +719,12 @@ Navbar Area CSS
   padding: 10px 25px;
   font-size: 15px;
   background-color: transparent;
-  border: 1px solid #535b5e;
-  color: #535b5e;
+  border: 1px solid #00b0ee;
+  color: #00b0ee;
 }
 
 .plamb-nav .navbar .other-option .default-btn.seo-btn:hover {
-  background-color: #535b5e;
+  background-color: #00b0ee;
   color: #ffffff;
 }
 
@@ -766,7 +764,7 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .navbar-nav .nav-item a.active {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .navbar-area.is-sticky .plamb-nav .navbar-brand .white-logo {
@@ -808,7 +806,7 @@ Navbar Area CSS
     font-size: 15px;
   }
   .plamb-responsive-nav .plamb-responsive-menu.mean-container .mean-nav ul li a.active {
-    color: #535b5e;
+    color: #00b0ee;
   }
   .plamb-responsive-nav .plamb-responsive-menu.mean-container .mean-nav ul li li a {
     font-size: 15px;
@@ -949,7 +947,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content .banner-btn .video-btn:hover {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .shape-img1 {
@@ -1404,7 +1402,7 @@ About Section CSS
 .about-content span {
   font-size: 16px;
   font-weight: 400;
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .about-content h3 {
@@ -1437,7 +1435,7 @@ About Section CSS
 }
 
 .about-content .about-list i {
-  color: #535b5e;
+  color: #00b0ee;
   font-weight: 700;
   margin-right: 5px;
 }
@@ -1477,7 +1475,7 @@ Data Services Section CSS
 }
 
 .data-services-item .single-data-service-box .icon i {
-  color: #535b5e;
+  color: #00b0ee;
   position: relative;
   margin-right: 4px;
   top: -3px;
@@ -1526,7 +1524,7 @@ Data Services Section CSS
   width: 100%;
   height: 0;
   border-radius: 5px;
-  background-color: #535b5e;
+  background-color: #00b0ee;
   z-index: -1;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -1576,7 +1574,7 @@ Fun Facts Section CSS
   width: 100%;
   left: 0;
   top: 0;
-  background-color: #535b5e;
+  background-color: #00b0ee;
   z-index: -1;
   opacity: 0.8;
 }
@@ -1667,7 +1665,7 @@ Tabs Solutions Section CSS
 }
 
 .solutions-list-tab .tabs li.current a, .solutions-list-tab .tabs li:hover a {
-  background-color: #535b5e;
+  background-color: #00b0ee;
   color: #ffffff;
 }
 
@@ -1700,7 +1698,7 @@ Tabs Solutions Section CSS
 }
 
 .solutions-list-tab .tab_content .tabs_item .tab-solution-content .tab-list i {
-  color: #535b5e;
+  color: #00b0ee;
   margin-right: 5px;
 }
 
@@ -1746,7 +1744,7 @@ Work Section CSS
 
 .work-item:hover .work-content {
   max-width: 100%;
-  background-color: #535b5e;
+  background-color: #00b0ee;
 }
 
 .work-item:hover h3 {
@@ -1954,7 +1952,7 @@ Subscribe Area CSS
   position: absolute;
   right: 0;
   top: 0;
-  background-color: #535b5e;
+  background-color: #00b0ee;
   color: #ffffff;
   border: none;
   height: 50px;
@@ -2005,7 +2003,7 @@ Services Section CSS
   line-height: 50px;
   background-color: #eeeefd;
   border-radius: 50%;
-  color: #535b5e;
+  color: #00b0ee;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   margin-bottom: 15px;
@@ -2071,7 +2069,7 @@ Services Section CSS
   z-index: -1;
   width: 100%;
   height: 0%;
-  background: #535b5e;
+  background: #00b0ee;
   border-radius: 0;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -2089,7 +2087,7 @@ Services Section CSS
 .single-services-box:hover .icon {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
-  color: #535b5e;
+  color: #00b0ee;
   background-color: #ffffff;
 }
 
@@ -2164,11 +2162,11 @@ Process Section CSS
 
 .process-item:hover .process-btn .process-btn-one {
   letter-spacing: 1px;
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .process-item:hover .process-btn i {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 /*================================================
@@ -2177,7 +2175,7 @@ Software Section CSS
 .software-content span {
   font-size: 16px;
   font-weight: 400;
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .software-content h2 {
@@ -2237,7 +2235,7 @@ Software Section CSS
   width: 100%;
   height: 0;
   border-radius: 5px;
-  background-color: #535b5e;
+  background-color: #00b0ee;
   z-index: -1;
   -webkit-transition: 0.6s;
   transition: 0.6s;
@@ -2252,7 +2250,7 @@ Software Section CSS
 }
 
 .software-content .features-list li span:hover i {
-  background-color: #535b5e;
+  background-color: #3e57d0;
 }
 
 .software-image {
@@ -2265,7 +2263,7 @@ Productive Section CSS
 .productive-content span {
   font-size: 16px;
   font-weight: 400;
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .productive-content h3 {
@@ -2290,7 +2288,7 @@ Productive Section CSS
   overflow: hidden;
   z-index: 1;
   color: #ffffff;
-  background-color: #535b5e;
+  background-color: #00b0ee;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   border-radius: 10px;
@@ -2309,7 +2307,7 @@ Productive Section CSS
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #535b5e;
+  background-color: #3e57d0;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -2334,9 +2332,9 @@ Productive Section CSS
   text-align: center;
   overflow: hidden;
   z-index: 1;
-  color: #535b5e;
+  color: #00b0ee;
   background-color: #ffffff;
-  border: 1px solid #535b5e;
+  border: 1px solid #00b0ee;
   -webkit-transition: 0.6s;
   transition: 0.6s;
   border-radius: 10px;
@@ -2356,8 +2354,8 @@ Productive Section CSS
   width: 0;
   height: 0;
   border-radius: 50%;
-  background-color: #535b5e;
-  border: 1px solid #535b5e;
+  background-color: #00b0ee;
+  border: 1px solid #00b0ee;
   -webkit-transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
   -webkit-transform: translate(-50%, -50%);
@@ -2398,7 +2396,7 @@ Footer Section CSS
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #535b5e;
+  background-color: #00b0ee;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.6s;
@@ -2534,7 +2532,7 @@ Subscribe Section CSS
   position: absolute;
   right: 4px;
   top: 4px;
-  background-color: #535b5e;
+  background-color: #14c0d7;
   color: #ffffff;
   border: none;
   height: 62px;
@@ -2569,7 +2567,7 @@ Contact Section CSS
 }
 
 .contact-form form .form-control:focus {
-  border: 1px solid #535b5e;
+  border: 1px solid #00b0ee;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -2613,8 +2611,8 @@ Contact Section CSS
 .contact-form .submit-btn {
   display: inline-block;
   width: 100%;
-  background-color: #535b5e;
-  border: 1px solid #535b5e;
+  background-color: #00b0ee;
+  border: 1px solid #00b0ee;
   color: #ffffff;
   padding: 12px 50px;
   font-size: 15px;
@@ -2625,7 +2623,7 @@ Contact Section CSS
 
 .contact-form .submit-btn:hover {
   background-color: #ffffff;
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .contact-box .single-contact-box {
@@ -2641,18 +2639,18 @@ Contact Section CSS
   line-height: 50px;
   width: 50px;
   height: 50px;
-  border: 1px dashed #535b5e;
+  border: 1px dashed #00b0ee;
   border-radius: 50%;
   font-size: 20px;
   display: inline-block;
-  color: #535b5e;
+  color: #00b0ee;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   margin-bottom: 20px;
 }
 
 .contact-box .single-contact-box:hover i {
-  background-color: #535b5e;
+  background-color: #00b0ee;
   color: #ffffff;
 }
 
@@ -2668,7 +2666,7 @@ Contact Section CSS
 }
 
 .contact-box .single-contact-box .content-title a:hover {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 /*================================================
@@ -2753,7 +2751,7 @@ Page Title Area CSS
 }
 
 .page-title-content ul li a:hover {
-  color: #535b5e;
+  color: #00b0ee;
 }
 
 .page-title-content ul li::before {
@@ -2764,7 +2762,7 @@ Page Title Area CSS
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #535b5e;
+  background-color: #00b0ee;
 }
 
 .page-title-content ul li:last-child::before {
@@ -2826,7 +2824,7 @@ Team Section CSS
 
 .single-team-item .team-image .team-social a {
   display: inline-block;
-  color: #535b5e;
+  color: #00b0ee;
   font-size: 18px;
   margin: 0 6px;
   height: 50px;
@@ -5177,7 +5175,6 @@ Blog Details Area CSS
 ################
                End Blog Home  Page style
 ################
-
 /*================================================
 Footer Section CSS
 =================================================*/
